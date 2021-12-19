@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SignFast/static/css/main.7ef69843.css",
+    "main.js": "/SignFast/static/js/main.4dd56df5.js",
+    "static/media/reload.svg": "/SignFast/static/media/reload.de8a2b8060ce643ff8843b2e2451b84d.svg",
+    "index.html": "/SignFast/index.html",
+    "main.7ef69843.css.map": "/SignFast/static/css/main.7ef69843.css.map",
+    "main.4dd56df5.js.map": "/SignFast/static/js/main.4dd56df5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ef69843.css",
+    "static/js/main.4dd56df5.js"
+  ]
+}
