@@ -1,0 +1,147 @@
+/* --------------------------------- Utility -------------------------------- */
+html {
+    --th-main: #f39100;
+    --th-main-darker: #c57600;
+    --th-light: #fce4c5;
+
+    --font-color: #4e3f35;
+
+    --brown-text: #86593b;
+    --brown-text-light: #a48c7b;
+}
+
+body {
+    background-color: var(--th-light);
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Space Mono', monospace; */
+    color: var(--font-color);
+}
+
+a {
+    color: var(--font-color);
+}
+
+.centerContent {
+    text-align: center;
+}
+
+/* --------------------------------- Navbar --------------------------------- */
+.Navbar {
+    background-color: var(--th-main) !important;
+    height: 70px;
+}
+
+#BrandName {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+/* --------------------------------- Content -------------------------------- */
+.title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subheading {
+    text-align: center;
+    padding-top: 30px;
+    margin-inline: 20%;
+}
+
+.inputFields {
+    padding-top: 40px;
+    margin-inline: 20%;
+}
+
+input {
+    background-color: #fcd199 !important;
+    border: #86593b 2px solid !important;
+
+    color: var(--brown-text) !important;
+    font-weight: bold !important;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+input::placeholder {
+    color: var(--brown-text-light) !important;
+    opacity: 1;
+}
+
+/* Edge */
+input::-ms-input-placeholder {
+    color: var(--brown-text-light) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+#signCanvas {
+    text-align: center;
+    background-color: white;
+    border: #86593b 2px solid;
+    border-radius: 6px;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.signHeaderBox {
+    width: 300px;
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.signHeader {
+    float: left;
+    text-decoration: underline;
+}
+
+.signResetButton {
+    display: flex;
+    float: right;
+    fill: var(--th-main-darker);
+
+    background-color: transparent;
+    border: none;
+    padding-top: 8px;
+}
+
+.rotate {
+    transition: transform 0.7s ease-in-out;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+/* ----------------------------- Download Button ---------------------------- */
+#downloadBtn {
+    background-color: var(--th-main);
+    border: var(--font-color) 2px solid;
+    color: var(--font-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#downloadBtn:hover {
+    background-color: var(--th-main-darker);
+}
+
+#downloadBtn:active {
+    color: white;
+}
+
+#downloadBtn:focus {
+    box-shadow: none;
+}
