@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SignFast/static/css/main.7ef69843.css",
-    "main.js": "/SignFast/static/js/main.df80cec3.js",
+    "main.js": "/SignFast/static/js/main.e3fbe9b2.js",
     "static/media/reload.svg": "/SignFast/static/media/reload.de8a2b8060ce643ff8843b2e2451b84d.svg",
     "index.html": "/SignFast/index.html",
     "main.7ef69843.css.map": "/SignFast/static/css/main.7ef69843.css.map",
-    "main.df80cec3.js.map": "/SignFast/static/js/main.df80cec3.js.map"
+    "main.e3fbe9b2.js.map": "/SignFast/static/js/main.e3fbe9b2.js.map"
   },
   "entrypoints": [
     "static/css/main.7ef69843.css",
-    "static/js/main.df80cec3.js"
+    "static/js/main.e3fbe9b2.js"
   ]
 }
